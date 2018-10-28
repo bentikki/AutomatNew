@@ -10,6 +10,12 @@ namespace AutomatNew
     {
         static void Main(string[] args)
         {
+            //Initializes GUI class.
+            AutomatGUI gui = new AutomatGUI();
+
+            //Display the menu from GUI class.
+            gui.DisplayMenu();
+
         }
     }
 }
